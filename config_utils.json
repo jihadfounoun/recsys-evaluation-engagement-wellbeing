@@ -1,0 +1,15 @@
+
+
+{
+    "num_configs": 4,
+    "weights_config": {
+        "c1":[0.2,0.2,0.2,0.2,0.2],
+                    "c2":[0.6,0.1,0.1,0.1,0.1],
+                    "c3":[0.10,0.225,0.225,0.225,0.225],
+                     "c4":[0.3,0.2,0.15,0.15,0.2]
+
+    },
+    "_metrcs_order": ["hit_rate", "diversity", "serendipity", "fairness", "novelty"
+    ],
+    "_config_comments": "C1 – Equilibrata\t0.2\t0.2\t0.2\t0.2\t0.2\tTutti pesi uguali, baseline neutra\nC2 – Engagement-priorità\t0.4\t0.15\t0.15\t0.15\t0.15\tHit rate dominante, resto bilanciato\nC3 – Well-being-priorità\t0.15\t0.25\t0.2\t0.2\t0.2\tRidotto focus su engagement, maggiore su diversità/serendipity/fairness\nC4 – Bilanciato leggermente engagement\t0.3\t0.2\t0.15\t0.15\t0.2\tCompromesso tra hit rate e metriche di well-being"
+}

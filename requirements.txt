@@ -1,0 +1,11 @@
+Cython==0.29.23
+h5py==3.1.0
+numpy>=1.19
+pandas==1.2.4
+scikit-learn==0.24.1
+scikit-optimize==0.8.1
+scipy==1.6.2
+RISE==5.6.1
+jupyter-contrib-nbextensions==0.5.1
+tables==3.7.0
+optuna==2.10.0
